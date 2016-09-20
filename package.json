@@ -1,0 +1,25 @@
+{
+  "name": "prisma-ua",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sincu/p-u.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sincu/p-u/issues"
+  },
+  "homepage": "https://github.com/sincu/p-u#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

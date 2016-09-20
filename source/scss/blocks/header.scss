@@ -1,0 +1,83 @@
+// .wrapper {
+//     height: 90px;
+//     background: $main-grey;
+// }
+
+
+
+/* ==============================
+  LOGO
+============================== */
+.logo {
+    height: 54px;
+    background: $main-grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .name {
+        text-align: center;
+        color: white;
+    }
+}
+.navi,
+.content {
+    position: relative;
+}
+
+@media (min-width: 769px) {
+    .logo,
+    .naviStick {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+    body {
+        padding-top: 54px;
+    }
+
+}
+
+
+/* ==============================
+  NAVIGATION
+============================== */
+
+.navi {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .navi {
+        height: 36px;
+        background: $main-grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 150;
+        box-shadow: 0px 2px 3px rgba(0,0,0, .4);
+        margin-bottom: -36px;
+        .main-nav {
+            text-align: center;
+            text-transform: uppercase;
+            li {
+                display: inline;
+                padding-left: 1em;
+                padding-right: 1em;
+                a {
+                    color: white;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* ==============================
+  Media Queries
+============================== */
+@media (min-width: 769px) {
+
+
+}

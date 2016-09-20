@@ -1,0 +1,86 @@
+/* ==============================
+  Variables
+============================== */
+/* ==============================
+  Main Styles
+============================== */
+.container {
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.content {
+  padding-top: 36px;
+  background: white; }
+
+.stickyFooter {
+  min-height: calc(100vh - 120px); }
+
+.main-footer {
+  padding: 2em 0;
+  background: #d9e4ea; }
+
+/* ==============================
+  Media Queries
+============================== */
+@media (min-width: 769px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto; } }
+
+/* ==============================
+  LOGO
+============================== */
+.logo {
+  height: 54px;
+  background: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .logo .name {
+    text-align: center;
+    color: white; }
+
+.navi,
+.content {
+  position: relative; }
+
+@media (min-width: 769px) {
+  .logo,
+  .naviStick {
+    position: fixed;
+    width: 100%;
+    top: 0; }
+  body {
+    padding-top: 54px; } }
+
+/* ==============================
+  NAVIGATION
+============================== */
+.navi {
+  display: none; }
+
+@media (min-width: 769px) {
+  .navi {
+    height: 36px;
+    background: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 150;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    margin-bottom: -36px; }
+    .navi .main-nav {
+      text-align: center;
+      text-transform: uppercase; }
+      .navi .main-nav li {
+        display: inline;
+        padding-left: 1em;
+        padding-right: 1em; }
+        .navi .main-nav li a {
+          color: white;
+          font-weight: normal; } }
+
+/* ==============================
+  Media Queries
+============================== */

@@ -1,0 +1,44 @@
+/* ==============================
+  Variables
+============================== */
+$main-grey: rgb(51,51,51);
+
+
+/* ==============================
+  Main Styles
+============================== */
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.content {
+    padding-top: 36px;
+    background: white;
+}
+
+
+
+.stickyFooter {
+    min-height: calc(100vh - 120px);
+  }
+
+.main-footer {
+  padding: 2em 0;
+  background: #d9e4ea;
+}
+
+
+/* ==============================
+  Media Queries
+============================== */
+
+@media (min-width: 769px) {
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
