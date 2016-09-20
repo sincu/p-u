@@ -1,0 +1,13 @@
+/* ==============================
+  CONTENT
+============================== */
+.content {
+    padding-top: 0px;
+    background: white;
+}
+
+@media (min-width: 769px) {
+    .content {
+        padding-top: 36px;
+    }
+}

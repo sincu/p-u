@@ -11,14 +11,28 @@
 .logo {
     height: 54px;
     background: $main-grey;
+    // position: fixed;
+    // width: 100%;
+    // top: 0;
+    // z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 15px $main-grey;
+    transition: top 0.2s ease-in-out;
     .name {
         text-align: center;
         color: white;
     }
 }
+
+// .logo-up {
+//     top: -54px;
+// }
+
+
+
+
 .navi,
 .content {
     position: relative;
@@ -30,7 +44,11 @@
         position: fixed;
         width: 100%;
         top: 0;
+        z-index: 0;
+
+
     }
+
     body {
         padding-top: 54px;
     }
@@ -54,7 +72,7 @@
         align-items: center;
         justify-content: center;
         z-index: 150;
-        box-shadow: 0px 2px 3px rgba(0,0,0, .4);
+        box-shadow: 0px 0px 15px $main-grey;
         margin-bottom: -36px;
         .main-nav {
             text-align: center;

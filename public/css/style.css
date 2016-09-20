@@ -8,10 +8,6 @@
   padding-left: 1em;
   padding-right: 1em; }
 
-.content {
-  padding-top: 36px;
-  background: white; }
-
 .stickyFooter {
   min-height: calc(100vh - 120px); }
 
@@ -36,7 +32,9 @@
   background: #333333;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0px 0px 15px #333333;
+  transition: top 0.2s ease-in-out; }
   .logo .name {
     text-align: center;
     color: white; }
@@ -50,7 +48,8 @@
   .naviStick {
     position: fixed;
     width: 100%;
-    top: 0; }
+    top: 0;
+    z-index: 0; }
   body {
     padding-top: 54px; } }
 
@@ -68,7 +67,7 @@
     align-items: center;
     justify-content: center;
     z-index: 150;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 15px #333333;
     margin-bottom: -36px; }
     .navi .main-nav {
       text-align: center;
@@ -84,3 +83,13 @@
 /* ==============================
   Media Queries
 ============================== */
+/* ==============================
+  CONTENT
+============================== */
+.content {
+  padding-top: 0px;
+  background: white; }
+
+@media (min-width: 769px) {
+  .content {
+    padding-top: 36px; } }

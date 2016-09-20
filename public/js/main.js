@@ -10,9 +10,13 @@ $(window).scroll(function() {
   }
 });
 
-
-
-
+// $(window).scroll(function() {
+//   if( $(this).scrollTop() > 50 ) {
+//     $(".logo").addClass("logo-up");
+//   } else {
+//     $(".logo").removeClass("logo-up");
+//   }
+// });
 
 
 
