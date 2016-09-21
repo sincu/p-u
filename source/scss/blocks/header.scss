@@ -77,13 +77,18 @@
         .main-nav {
             text-align: center;
             text-transform: uppercase;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             li {
-                display: inline;
-                padding-left: 1em;
-                padding-right: 1em;
                 a {
                     color: white;
                     font-weight: normal;
+                    display: block;
+                    padding: 6px 1em;
+                }
+                a:hover {
+                    color: lighten($main-grey, 50%);
                 }
             }
         }

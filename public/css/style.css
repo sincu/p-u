@@ -71,14 +71,17 @@
     margin-bottom: -36px; }
     .navi .main-nav {
       text-align: center;
-      text-transform: uppercase; }
-      .navi .main-nav li {
-        display: inline;
-        padding-left: 1em;
-        padding-right: 1em; }
-        .navi .main-nav li a {
-          color: white;
-          font-weight: normal; } }
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .navi .main-nav li a {
+        color: white;
+        font-weight: normal;
+        display: block;
+        padding: 6px 1em; }
+      .navi .main-nav li a:hover {
+        color: #b3b3b3; } }
 
 /* ==============================
   Media Queries
